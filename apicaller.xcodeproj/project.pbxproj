@@ -13,6 +13,12 @@
 		52F9611C28FF6D9F00F99834 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52F9611A28FF6D9F00F99834 /* Main.storyboard */; };
 		52F9611E28FF6DA100F99834 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52F9611D28FF6DA100F99834 /* Assets.xcassets */; };
 		52F9612128FF6DA100F99834 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52F9611F28FF6DA100F99834 /* LaunchScreen.storyboard */; };
+		52F9613128FF774100F99834 /* Todo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F9613028FF774100F99834 /* Todo.swift */; };
+		52F9613328FF776400F99834 /* TodoAPI_Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F9613228FF776400F99834 /* TodoAPI_Helper.swift */; };
+		52F9613528FF7B4B00F99834 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F9613428FF7B4B00F99834 /* Movie.swift */; };
+		52F9613728FF7F6400F99834 /* MovieAPI_Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F9613628FF7F6400F99834 /* MovieAPI_Helper.swift */; };
+		52F9613D28FFA46700F99834 /* News.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F9613C28FFA46700F99834 /* News.swift */; };
+		52F9613F28FFA47A00F99834 /* News_Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F9613E28FFA47A00F99834 /* News_Helper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +30,12 @@
 		52F9611D28FF6DA100F99834 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		52F9612028FF6DA100F99834 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		52F9612228FF6DA100F99834 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52F9613028FF774100F99834 /* Todo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Todo.swift; sourceTree = "<group>"; };
+		52F9613228FF776400F99834 /* TodoAPI_Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoAPI_Helper.swift; sourceTree = "<group>"; };
+		52F9613428FF7B4B00F99834 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		52F9613628FF7F6400F99834 /* MovieAPI_Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieAPI_Helper.swift; sourceTree = "<group>"; };
+		52F9613C28FFA46700F99834 /* News.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = News.swift; sourceTree = "<group>"; };
+		52F9613E28FFA47A00F99834 /* News_Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = News_Helper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +75,12 @@
 				52F9611D28FF6DA100F99834 /* Assets.xcassets */,
 				52F9611F28FF6DA100F99834 /* LaunchScreen.storyboard */,
 				52F9612228FF6DA100F99834 /* Info.plist */,
+				52F9613028FF774100F99834 /* Todo.swift */,
+				52F9613228FF776400F99834 /* TodoAPI_Helper.swift */,
+				52F9613428FF7B4B00F99834 /* Movie.swift */,
+				52F9613628FF7F6400F99834 /* MovieAPI_Helper.swift */,
+				52F9613C28FFA46700F99834 /* News.swift */,
+				52F9613E28FFA47A00F99834 /* News_Helper.swift */,
 			);
 			path = apicaller;
 			sourceTree = "<group>";
@@ -139,7 +157,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				52F9611928FF6D9F00F99834 /* ViewController.swift in Sources */,
+				52F9613128FF774100F99834 /* Todo.swift in Sources */,
+				52F9613728FF7F6400F99834 /* MovieAPI_Helper.swift in Sources */,
+				52F9613328FF776400F99834 /* TodoAPI_Helper.swift in Sources */,
+				52F9613F28FFA47A00F99834 /* News_Helper.swift in Sources */,
+				52F9613D28FFA46700F99834 /* News.swift in Sources */,
 				52F9611528FF6D9F00F99834 /* AppDelegate.swift in Sources */,
+				52F9613528FF7B4B00F99834 /* Movie.swift in Sources */,
 				52F9611728FF6D9F00F99834 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
